@@ -73,6 +73,7 @@ li a {
    margin: 50px;
    position: relative;
    padding-left: 2px;
+   margin-top: 4%;
 }
 
 header {
@@ -121,8 +122,40 @@ h1 span {
    padding-left: 6%;
 }
 
-.portfolio-botton i {
+.portfolio-botton .fas {
    padding-left: 5px;
    font-size: 20px;
    position: center;
+}
+
+.scroll-button {
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   margin-top: -70px;
+   margin-left: 93%;
+   border-radius: 50%;
+
+   background-image: linear-gradient(#F2C91D, #F2A01D);
+   position: fixed;
+   box-shadow: 1px 1px 10px #F2C91D;
+
+}
+
+.scroll-button:hover {
+   box-shadow: 1px 1px 10px #b4b4b4;
+}
+
+.scroll-button .fas {
+   color: white;
+   position: absolute;
+   margin-top: 31%;
+   margin-left: 31%;
+   font-size: 20px;
+
+}
+
+
+section {
+   margin-bottom: 800px;
 }
