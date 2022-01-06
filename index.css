@@ -1,0 +1,17 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+
+/*--------Font Name--------
+Heading Font Name - font-family: 'Yeseva One', cursive;
+Seconder Font Name - font-family: 'Poppins', sans-serif;
+Orange1 - F2A01D
+Orange2 - F2C91D
+Gray    - 333333
+Paragraph Gray  - 3E3E3E
+---------Font Name----------*/
+
