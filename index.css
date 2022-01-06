@@ -163,5 +163,12 @@ h1 span {
 
 }
 .second-section{
-   margin-top: 80px;
+   
+   position: absolute;
+   margin-top: 60px;
+}
+.second-hl{
+   text-align: center; 
+   width: 100%;
+   padding-left: 9%;
 }
