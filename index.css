@@ -65,4 +65,64 @@ li a {
 .nav-bar img {
    width: 15%;
    padding: 0 10px;
+   cursor: pointer;
+}
+
+
+.section-font {
+   margin: 50px;
+   position: relative;
+   padding-left: 2px;
+}
+
+header {
+   display: flex;
+}
+
+header img {
+   width: 800px;
+   padding-right: 80px;
+}
+
+h1 {
+   font-size: 60px;
+   font-family: 'Yeseva One', cursive;
+   line-height: 140%;
+   color: #333333;
+
+
+}
+
+.name {
+   border-left: 10px solid #F2C91D;
+   padding-left: 25px;
+
+
+}
+
+h1 span {
+   color: #F2A01D;
+}
+
+.portfolio-botton {
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 500;
+
+}
+
+.paragraph {
+   color: #333333;
+   margin-top: 8%;
+   margin-bottom: 10%;
+}
+
+.margin-left {
+   padding-left: 6%;
+}
+
+.portfolio-botton i {
+   padding-left: 5px;
+   font-size: 20px;
+   position: center;
 }
