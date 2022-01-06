@@ -19,8 +19,8 @@ Paragraph Gray  - 3E3E3E
 ---------Font Name----------*/
 
 .first-section {
-   margin-top: 5px;
-   padding-left: 15px;
+   
+   padding-left: 10px;
 
 }
 
@@ -89,7 +89,7 @@ header {
 }
 
 header img {
-   width: 800px;
+   width: 690px;
    padding-right: 80px;
 }
 
