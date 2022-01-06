@@ -1,4 +1,4 @@
-body{
+body {
    margin: 0;
    padding: 0;
    font-family: 'Poppins', sans-serif;
@@ -14,4 +14,89 @@ Orange2 - F2C91D
 Gray    - 333333
 Paragraph Gray  - 3E3E3E
 ---------Font Name----------*/
+.line {
+   width: 6px;
+   height: 130px;
+   background-color: #F2C91D;
+   border-radius: 100px;
+   position: absolute;
 
+}
+
+.name {
+   font-size: 60px;
+   font-family: 'Yeseva One', cursive;
+   color: #1f1f1f;
+   line-height: 90px;
+}
+
+span {
+   color: #F2A01D;
+}
+
+.portfolio-botton {
+   padding: 10px 40px;
+   border-radius: 100px;
+   background-image: linear-gradient(#F2A01D, #F2C91D);
+   color: #fff;
+   font-weight: 600;
+   text-decoration: none;
+   font-size: 20px;
+   transition: 0.5s;
+}
+
+.portfolio-botton:hover {
+   background-image: linear-gradient(#F2C91D, #F2A01D);
+   transition: 0.5s;
+}
+
+a i {
+   padding-left: 8px;
+}
+
+.nav-bar {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 96%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav-link {
+   display: flex;
+
+}
+
+
+ul li {
+   padding: 20px 30px;
+}
+
+ul li a {
+   text-decoration: none;
+
+}
+
+.logo {
+   width: 200px;
+   height: 57px;
+   padding-left: 4%;
+   margin-top: 20px;
+}
+
+header {
+   display: flex;
+
+}
+
+header img {
+   width: 50%;
+   margin-top: 120px;
+   padding-left: 44%;
+}
+
+.section-image {
+   position: absolute;
+
+}
