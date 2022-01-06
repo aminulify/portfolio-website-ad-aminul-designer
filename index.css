@@ -168,9 +168,8 @@ h1 span {
 -------------second section------------*/
 
 .second-section{
-   
-   position: absolute;
-   margin-top: 60px;
+   position: relative;
+   margin: 60px 0px;
    overflow-x: hidden;
    z-index: 1;
 }
@@ -232,5 +231,58 @@ h1 span {
    color: #1d1d1d;
 }
 .total-box{
-   margin-bottom: 80px;
+   margin-bottom: 100px;
+}
+
+/*-----------three section------------
+-------------three section------------*/
+
+.education{
+   display: flex;
+   margin: 50px 50px;
+   width: 88%;
+   
+
+}
+.education img{
+   width: 60%;
+   padding-left: 15%;
+}
+.education-pargraph{
+   margin-top: 35px;
+   
+}
+.education-pargraph h3{
+   border-left: 4px solid #F2A01D;
+   padding-left: 10px;
+   color: #1d1d1d;
+}
+.education-pargraph p{
+   color: #333333;
+}
+
+/*-----------skill--------------*/
+/*-----------skill--------------*/
+/*-----------skill--------------*/
+
+.skill{
+   display: flex;
+   margin: 30px 160px;
+   width: 88%;
+   grid-gap: 80px;
+   
+}
+.skill img{
+   width: 70%;
+}
+.skill-paragraph{
+   margin-top: 30px;
+}
+.skill h3{
+   border-left: 4px solid #F2A01D;
+   padding-left: 10px;
+   color: #1d1d1d;
+}
+.skill p{
+   color: #333333;
 }
