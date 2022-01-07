@@ -65,7 +65,10 @@ li a {
    box-shadow: 1px 1px 10px #F2C91D;
    transition: 0.3s;
 }
-
+header .first-section-button{
+  display: flex;
+  grid-gap: 20px; 
+}
 .nav-bar {
    position: relative;
 }
@@ -237,12 +240,13 @@ h1 span {
 /*-----------three section------------
 -------------three section------------*/
 
+.three-section{
+   margin-top: -50px;
+}
 .education{
    display: flex;
-   margin: 50px 50px;
+   margin: 0px 50px;
    width: 88%;
-   
-
 }
 .education img{
    width: 60%;
@@ -259,6 +263,11 @@ h1 span {
 }
 .education-pargraph p{
    color: #333333;
+}
+.three-section h1{
+   position:relative;
+   text-align: center;
+   margin-bottom: 50px;
 }
 
 /*-----------skill--------------*/
@@ -286,3 +295,54 @@ h1 span {
 .skill p{
    color: #333333;
 }
+
+/*--------------education & skills------*/
+/*--------------education & skills------*/
+/*--------------education & skills------*/
+
+.four-block h1{
+   position: relative;
+   text-align: center;
+   
+}
+
+.portfolio-image img{
+   border-radius: 13px;
+   margin-left: 31px;
+   width: 30%;
+   
+}
+.four-block{
+   margin: 50px 0;
+}
+.five-section .contact-header{
+   position: relative;
+   text-align: center;
+}
+
+.five-section .footer-head{
+   text-align: center;
+   position: relative;
+   margin: 80px 0;
+   color: white;
+}
+
+.footer{
+   background-color: #1d1d1d;
+   padding: 0.2px;
+}
+.five-section p{
+ color: white;
+ position: relative;
+ text-align: center;
+ padding-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
