@@ -283,9 +283,13 @@ h1 span {
 }
 .skill img{
    width: 70%;
+   
 }
 .skill-paragraph{
    margin-top: 30px;
+   position: relative;
+   margin: 0;
+   padding-right: -30%;
 }
 .skill h3{
    border-left: 4px solid #F2A01D;
