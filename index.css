@@ -73,9 +73,10 @@ header .first-section-button{
    position: relative;
 }
 
-.nav-bar img {
-   width: 15%;
-   padding: 0 10px;
+.logo {
+   width: 200px;
+   height: 60px;
+   padding: 0 30px;
    cursor: pointer;
 }
 
@@ -198,7 +199,7 @@ h1 span {
    background-color: rgb(255, 249, 225);
    border-radius: 30px;
    padding: 30px;
-   transition: 0.3s;
+   transition: box-shadow 0.3s ease-out;
    
 }
 .total-box .one-box:hover{
@@ -209,7 +210,7 @@ h1 span {
    background-color: rgb(235, 235, 235);
    border-radius: 30px;
    padding: 30px;
-   transition: 0.3s;
+   transition: box-shadow 0.3s ease-out;
 }
 
 .total-box .two-box:hover{
@@ -220,7 +221,7 @@ h1 span {
    background-color: rgb(224, 235, 255);
    border-radius: 30px;
    padding: 30px;
-   transition: 0.3s;
+   transition: box-shadow 0.3s ease-out;
    
 }
 
@@ -242,19 +243,24 @@ h1 span {
 
 .three-section{
    margin-top: -50px;
+
 }
+
 .education{
    display: flex;
-   margin: 0px 50px;
-   width: 88%;
+   justify-content: space-evenly;
+   padding-left: 12%;
+   padding-right: 12%;
+   
 }
 .education img{
-   width: 60%;
-   padding-left: 15%;
+  width: 450px;
+  padding-right: 100px;
+   
 }
 .education-pargraph{
    margin-top: 35px;
-   
+
 }
 .education-pargraph h3{
    border-left: 4px solid #F2A01D;
