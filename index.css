@@ -316,11 +316,16 @@ h1 span {
    
 }
 
-.portfolio-image img{
-   border-radius: 13px;
-   margin-left: 31px;
+.portfolio-image{
    width: 30%;
-   
+   display: grid;
+   grid-gap: 20px 20px;
+   grid-template-columns: repeat(3, 1fr);
+   margin-left: 3.5%;
+
+}
+.portfolio-image img{
+   border-radius: 20px;
 }
 .four-block{
    margin: 50px 0;
